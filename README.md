@@ -15,11 +15,15 @@ Currently, the only three components required to run this server are a working N
 
 ### Step By Step Explanation On Activating The Server
 1. Go to the GitHub repository [here](https://github.com/Visqosity/WaveOS-Node-Backend)
-2. Click the big green `code` button and click `DOWLOAD ZIP`
+2. Click the big green `code` button and click `DOWNLOAD ZIP`
 3. Unzip the folder in your file manager
 4. Open your terminal
 5. Navigate to the folder using basic bash commands (For example, if the unzipped foler is in Downloads and its named 'WaveOSNode', you would run `cd Downloads`, and  then `cd WaveOSNode`)
-6. This is where npm will come in. Run
+6. Define environmental variables to the system. A tutorial for WindowsOS is [here](https://www.architectryan.com/2018/08/31/how-to-change-environment-variables-on-windows-10/), and LinuxOS [here](https://www.serverlab.ca/tutorials/linux/administration-linux/how-to-set-environment-variables-in-linux/). These are the variables you need to define:
+ - `SCRATCH_USERNAME` - Your scratch username
+ - `SCRATCH_PASSWORD` - Your scratch password
+
+7. This is where npm will come in. Run
 ```sh
 npm install
 npm install node-scratch-client
@@ -28,13 +32,13 @@ npm install fs
 ```
 in the terminal (While in the correct folder)
 
-7. Once everything is installed, run
+8. Once everything is installed, run
 ```sh
 node index.js
 node server.js
 ```
 
-8. And thats it! Your server is now running. You can either keep the terminal window open, or optionally install PM2 ( i will not include that in these instructions)
+9. And thats it! Your server is now running. You can either keep the terminal window open, or optionally install PM2 ( i will not include that in these instructions)
 
 ### Any errors in this process can be directed to [Visqosity](https://scratch.mit.edu/users/Visqosity).
 
