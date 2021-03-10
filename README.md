@@ -32,7 +32,7 @@ npm install fs
 ```
 in the terminal (While in the correct folder)
 
-8. Once everything is installed, run
+8. Once everything is installed, just run
 ```sh
 node index.js
 ```
