@@ -19,7 +19,7 @@ Currently, the only three components required to run this server are a working N
 3. Unzip the folder in your file manager
 4. Open your terminal
 5. Navigate to the folder using basic bash commands (For example, if the unzipped foler is in Downloads and its named 'WaveOSNode', you would run `cd Downloads`, and  then `cd WaveOSNode`)
-6. Define environmental variables to the system. A tutorial for WindowsOS is [here](https://www.architectryan.com/2018/08/31/how-to-change-environment-variables-on-windows-10/), and LinuxOS [here](https://www.serverlab.ca/tutorials/linux/administration-linux/how-to-set-environment-variables-in-linux/). These are the variables you need to define:
+6. Define environmental variables to the system. A tutorial for Windows 10 OS is [here](https://www.architectryan.com/2018/08/31/how-to-change-environment-variables-on-windows-10/), and Linux OS [here](https://www.serverlab.ca/tutorials/linux/administration-linux/how-to-set-environment-variables-in-linux/). These are the variables you need to define:
  - `SCRATCH_USERNAME` - Your scratch username
  - `SCRATCH_PASSWORD` - Your scratch password
 
@@ -35,7 +35,6 @@ in the terminal (While in the correct folder)
 8. Once everything is installed, run
 ```sh
 node index.js
-node server.js
 ```
 
 9. And thats it! Your server is now running. You can either keep the terminal window open, or optionally install PM2 ( i will not include that in these instructions)
